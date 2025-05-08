@@ -15,7 +15,7 @@ void main(){
   }
 
   // Deber 2
-  List<dynamic> total=["Pan",2.5,5,"Leche","Erick"];
+  List<dynamic> total=["Pan",2.5,5,"Leche","Erick",5000];
   print(total);
   int n=total.length;
   print(total[n-1]);
