@@ -6,6 +6,9 @@
 
   void main(){
       String Nombre="Alexander";
+      int edad=36;
+
+      print("$Nombre y $edad");
 
 
   }
