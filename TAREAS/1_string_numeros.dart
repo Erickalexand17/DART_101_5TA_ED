@@ -6,7 +6,7 @@
 
   void main(){
     String nombre="Erick Alexander";
-    int edad=36;
+    int edad=37;
 
     print("Mi nombre es $nombre y tengo $edad años");
 
