@@ -5,7 +5,7 @@
   // 4.- Como puedo resolver eso?
 
   void main(){
-    String nombre="Erick Alexander";
+    String nombre="Erick Alexand";
     int edad=37;
 
     print("Mi nombre es $nombre y tengo $edad años");
