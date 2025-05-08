@@ -10,5 +10,9 @@
 
       print("$Nombre y $edad");
 
-
+  //Deber 2
+  List<dynamic> total=["Pan",2.5,5,"Leche","Erick"];
+  print(total);
+ int n=total.length;
+  print(total[n-1]);
   }
