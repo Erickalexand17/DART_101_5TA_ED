@@ -14,9 +14,5 @@ void main(){
     print("No se pudo convertir '$valorstring' a double porque es String.");
   }
 
-  // Deber 2
-  List<dynamic> total=["Pan",2.5,5,"Leche","Erick",5000];
-  print(total);
-  int n=total.length;
-  print(total[n-1]);
+  
   }

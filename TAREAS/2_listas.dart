@@ -5,4 +5,13 @@
   // [1,2,3,4,5] -> 5
   // [1,2,3,4,5,6,7] -> 7
   // No usar el last 
+  void main(){
+
+  List<dynamic> total=["Pan",2.5,5,"Leche","Erick",5000];
+  print(total);
+  int n=total.length;
+  print(total[n-1]);
+  }
+
+  
 
