@@ -69,4 +69,7 @@ print(restaurante3);
 
 print(micadena);
 
+print(micadena["restaurante1"]?["nombre"]);
+print(micadena["restaurante1"]?["fuerte"]);
+
 }
