@@ -9,8 +9,7 @@
 
   List<dynamic> total=["Pan",2.5,5,"Leche","Erick",5000];
   print(total);
-  int n=total.length;
-  print(total[n-1]);
+  print(total[total.length-1]);
   }
 
   
