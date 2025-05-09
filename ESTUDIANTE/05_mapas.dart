@@ -71,5 +71,5 @@ print(micadena);
 
 print(micadena["restaurante1"]?["nombre"]);
 print(micadena["restaurante1"]?["fuerte"]);
-
+print("El restaurante ${micadena["restaurante"]?["nombre"]} tiene un plato fuerte llamado ${micadena["restaurante1"]?["fuerte"]}");
 }
