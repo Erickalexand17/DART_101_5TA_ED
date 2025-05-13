@@ -24,3 +24,30 @@
   //Ingresar a buscar en los mapas
   //print(miCadena["restaurante1"]);
   //print(miCadena["restaurante1"]?["fuerte"]);
+
+void main() {
+  // Map tipo de dato
+  final restaurantes ={
+  "restaurante1":{
+    "Dirección":"Latacunga",
+     "Menu":{
+      "Fuerte":"Carne",
+    }
+  },
+  "restaurante2":{
+    "Dirección":"Quito",
+    "Menu":{
+      "Fuerte":"Encebollado",
+    }
+  },
+  "restaurante3":{
+    "Dirección":"Cuenca",
+     "Menu":{
+      "Fuerte":"Cuy",
+    }
+  },
+
+  };
+ 
+}
+  
