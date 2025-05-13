@@ -53,6 +53,7 @@ void main() {
     },
   };
   print(restaurantes["restaurante2"]);
+  print(restaurantes["restaurante2"]?["direccion"]);
   print(restaurantes["restaurante2"]?["Menu"]?["Fuerte"]);
   print(restaurantes["restaurante2"]?["Menu"]?["Bebida"]);
   print(restaurantes["restaurante2"]?["Menu"]?["Princial"]);
