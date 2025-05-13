@@ -57,6 +57,18 @@ void main() {
   print(restaurantes["restaurante2"]?["Menu"]?["Fuerte"]);
   print(restaurantes["restaurante2"]?["Menu"]?["Bebida"]);
   print(restaurantes["restaurante2"]?["Menu"]?["Princial"]);
+
+  print(restaurantes["restaurante1"]);
+  print(restaurantes["restaurante1"]?["direccion"]);
+  print(restaurantes["restaurante1"]?["Menu"]?["Fuerte"]);
+  print(restaurantes["restaurante1"]?["Menu"]?["Bebida"]);
+  print(restaurantes["restaurante1"]?["Menu"]?["Princial"]);
+
+  print(restaurantes["restaurante3"]);
+  print(restaurantes["restaurante3"]?["direccion"]);
+  print(restaurantes["restaurante3"]?["Menu"]?["Fuerte"]);
+  print(restaurantes["restaurante3"]?["Menu"]?["Bebida"]);
+  print(restaurantes["restaurante3"]?["Menu"]?["Princial"]);
   
 }
 
