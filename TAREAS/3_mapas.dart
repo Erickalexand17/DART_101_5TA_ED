@@ -26,28 +26,36 @@
   //print(miCadena["restaurante1"]?["fuerte"]);
 
 void main() {
-  // Map tipo de dato
-  final restaurantes ={
-  "restaurante1":{
-    "Dirección":"Latacunga",
-     "Menu":{
-      "Fuerte":"Carne",
-    }
-  },
-  "restaurante2":{
-    "Dirección":"Quito",
-    "Menu":{
-      "Fuerte":"Encebollado",
-    }
-  },
-  "restaurante3":{
-    "Dirección":"Cuenca",
-     "Menu":{
-      "Fuerte":"Cuy",
-    }
-  },
-
+  final Map<String, Map<String, dynamic>> restaurantes = {
+    "restaurante1": {
+      "direccion": "Quito",
+      "Menu": {
+        "Fuerte": "Carne",
+        "Bebida": "Coca Cola",
+        "Princial": "Pescaso",
+      }
+    },
+    "restaurante2": {
+      "direccion": "Guayaquil",
+      "Menu": {
+        "Fuerte": "Carne Asada",
+        "Bebida": "Jugo",
+        "Princial": "Pollo",
+      }
+    },
+    "restaurante3": {
+      "direccion": "Cuenca",
+      "Menu": {
+        "Fuerte": "Cuy",
+        "Bebida": "Toni",
+        "Princial": "Camaron",
+      }
+    },
   };
- 
+  print(restaurantes["restaurante2"]);
+  print(restaurantes["restaurante2"]?["Menu"]?["Fuerte"]);
+  print(restaurantes["restaurante2"]?["Menu"]?["Bebida"]);
+  print(restaurantes["restaurante2"]?["Menu"]?["Princial"]);
 }
+
   
