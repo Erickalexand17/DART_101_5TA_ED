@@ -8,7 +8,7 @@ void main() {
   if (edad >= mayoredad){
     print("mayor de edad");
 }else if (edad >= nino && edad <= adolesecente){
-    print("adolesecente");
+    print("adolescente");
 }else if (edad < nino ){
     print("niño");
 }
