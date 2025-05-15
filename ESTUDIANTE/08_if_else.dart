@@ -14,8 +14,7 @@ void main() {
   // condicion ternaria
   final resultado= salario >= setpoint ? print("Me compro celular") : print("No puedo comer");
 
-final edad=3
-;
+final edad=20;
 
   if (edad >= 18){
     print("mayor de edad");
@@ -24,4 +23,23 @@ final edad=3
 }else if (edad < 4 ){
     print("niño");
 }
+
+
+switch (edad) {
+  case >=18:
+  print("Mayor");
+    break;
+  case >=14:
+  print("Adolesecn");
+  break;
+  case >4:
+  print("Niño");
+  break;
+  default:
+  print("Bebe");
+  break;
+
+}
+
+
 }

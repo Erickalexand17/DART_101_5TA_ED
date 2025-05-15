@@ -1,5 +1,5 @@
 void main() {
-  final edad=20;
+  final edad=2;
 
   final mayoredad=18;
   final adolesecente=17;
