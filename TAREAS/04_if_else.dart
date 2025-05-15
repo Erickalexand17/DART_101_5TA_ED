@@ -9,7 +9,7 @@ void main() {
     print("mayor de edad");
 }else if (edad >= nino && edad <= adolesecente){
     print("adolesecente");
-}else if (edad < nino ){
+}else if (edad < nino && edad >=0 ){
     print("niño");
 }
 }
