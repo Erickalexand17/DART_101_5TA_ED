@@ -1,4 +1,10 @@
+//Variable Global y tipo constante
+//const String VariableGlobal="VariableGlobal";
+
 void main() {
+ //Variable local y tipo constante
+//onst String VariableLocal="VariableLocal"; 
+
   calculoiva();     //uno
   calculo2();       //dos
 
@@ -7,7 +13,8 @@ void main() {
   CalcularImpuestoNomre(producto: 1000, impuesto: 50);
 
   final cal=calculoimpuestofinal(producto: 50, impuesto: 50);   //cinco
-  print(cal);
+  print("El valor calculado es $cal");
+  print("El valor mismo calculado es ${calculoimpuestofinal(producto: 50, impuesto: 50)}");
   
 }
 
@@ -64,3 +71,12 @@ double calculoimpuestofinal({required double producto, required double impuesto,
 
 }
 
+//Funciones lambda - funciones fecha
+int suma(){
+  final suma =3+5;
+  return suma;
+}
+
+int suma2(){
+  return 5+3;
+}
